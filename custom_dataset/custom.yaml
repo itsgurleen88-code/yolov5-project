@@ -1,0 +1,11 @@
+# ============================================================
+# custom.yaml
+# Dataset configuration for YOLOv5 custom object training.
+# Edit `names` and `nc` to match your own classes.
+# Paths below assume this file stays inside custom_dataset/.
+# ============================================================
+train: ../custom_dataset/images/train
+val: ../custom_dataset/images/val
+
+nc: 3
+names: ['car', 'bike', 'autorickshaw']

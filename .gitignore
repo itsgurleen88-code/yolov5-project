@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+
+# YOLO outputs
+runs/
+yolov5/runs/
+
+# YOLO weights
+*.pt
+*.onnx
+
+# Python cache
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
